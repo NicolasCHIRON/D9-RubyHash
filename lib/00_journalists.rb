@@ -51,23 +51,25 @@ end
 
 def perform
 puts
-puts "> Il y a #{count_journalists(journalists)} handle dans cet array."
+puts "> Il y a #{count_journalists(journalists)} handle dans cet array. (Je ne sais pas ce que ça veut dire mais avoue que c'est classe !)"
 puts
-puts "> L'handle le plus court est #{shortest(journalists)}."
+puts "> L'handle le plus court est #{shortest(journalists)}, logique non ?"
 puts
-puts "> Il y a #{five_list(journalists)} handles contenant 5 caractères."
+puts "> Il y a #{five_list(journalists)} handle contenant 5 caractères."
 puts
-puts "> Il y a #{uppercase_list(journalists)} handles qui commencent par une majuscule."
+puts "> Il y a #{uppercase_list(journalists)} handle commençant par une majuscule, super intéressant ! N'est ce pas ?! "
 puts
-puts "> Voici la liste par ordre alphabétique : #{alphabetical_order(journalists)}."
+puts "> Voici la liste par ordre alphabétique : #{alphabetical_order(journalists)}. 
+Les as-tu comptés ?"
 puts
 puts "=========================================================="
 puts "=========================================================="
 puts "=========================================================="
 puts
-puts "> Voici la liste des handles du plus petit au plus grand : #{size_order(journalists)}."
+puts "> Voici la liste des handle du plus petit au plus grand : #{size_order(journalists)}.
+Et cette fois ?"
 puts
-puts "> @epenser est en #{epenser(journalists)}ème position dans la liste."
+puts "> @epenser est en #{epenser(journalists)}ème position dans la liste. Si tu veux mon avis ce n'est pas lui qui va gagner la course :')"
 puts
 repartition(journalists)
 end
